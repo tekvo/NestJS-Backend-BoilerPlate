@@ -1,0 +1,16 @@
+export const authMiddlewareSkipUrl = [
+  '/api/admin/signup',
+  '/api/health',
+  '/api/login',
+  '/api/send-mail/forgot-password',
+  '/api/packageID/permission',
+  '/api/email/verify',
+  '/api/update-password',
+  '/api/role/app',
+  '/api/logout/all/devices',
+  '/api/user/reactivate/account',
+  '/api/workspace/packages/list',
+  '/api/stripe/session/:sessionId',
+  '/api/auth/google',
+  '/api/auth/google/callback',
+];
